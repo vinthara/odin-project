@@ -191,3 +191,12 @@ a,
     padding:8px;
     margin:0; 
 }
+
+.footer {
+    display:flex;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #1F2937;
+    color:#f9faf8;
+}
