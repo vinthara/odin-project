@@ -1,0 +1,38 @@
+body {
+    display:flex;
+    flex-direction:column;
+    margin:0;
+}
+
+.top {
+    display:flex;
+    justify-content: space-between;
+    padding:10px 100px;
+    margin:0;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    margin:0;
+    padding:0;
+    gap:30px;
+    min-width:100px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+li {
+    flex-shrink: 0;
+
+}
+
+.logo {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
