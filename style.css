@@ -67,7 +67,7 @@ a,
     width:120px;
     margin-top: 10px;
     border-radius: 8px;
-    border: none;
+    border:2px solid #3882f6;
     padding:8px;
 }
 
@@ -86,7 +86,8 @@ a,
     font-size: 36px;
     font-weight: 800;
     color:#1F2937;
-    padding:20px;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 .card-list {
@@ -115,16 +116,16 @@ a,
 }
 
 .body-container1 {
-    margin-top: 30px;
-    gap:20px;
-
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 80px;
 }
 
 .body-container2 {
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     background-color: #e5e7eb;
     padding-top:50px;
     padding-bottom:50px;
@@ -145,4 +146,48 @@ a,
     justify-content: flex-end;
     font-weight: 800;
     padding-right:100px;
+}
+
+
+.body-container3 {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.left-side {
+    display:flex;
+    flex-direction: column;
+}
+
+.sign-up-menu2 {
+    display:flex;
+    background-color: #3882f6;
+    width:800px; 
+    border-radius: 8px;
+    padding:30px 60px;
+    justify-content:space-around;
+    align-items: center;
+    color:#f9faf8
+}
+
+.action {
+    font-weight: 800;
+}
+
+.sign-up {
+    font-weight: 300;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size: 18px;
+    font-weight: 800;
+    width:120px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border:2px solid #f9faf8;
+    padding:8px;
+    margin:0; 
 }
